@@ -683,3 +683,108 @@ nav ul li{
   .read-more-btn3:hover {
     background-color: #005f2c;
   }
+
+  /* Donat Today Style */
+
+.donate-today-container {
+ 
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 464px;
+}
+
+.donate-today-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.donate-today-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 32px;
+}
+
+.donation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  
+
+.donation-button {
+    width: 240px;
+    height: 128px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.donation-button:hover {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.donation-button.active {
+    background-color: #d1f2eb;
+    border-color: #26a69a;
+    color: #00796b;
+}
+.other-amount::placeholder {
+    color: rgba(14, 14, 14, 0.3); 
+  }
+.other-amount {
+    width: 970px;
+    height: 64px;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(48, 224, 224, 0.3);
+    background-color: #FFFFFF;
+    padding: 0 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    
+}
+
+.other-amount:focus {
+    border-color: #26a69a;
+}
+
+.donate-now {
+    margin-top: 408px;
+    width: 151px;
+    height: 56px;
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.donate-now:hover {
+    background-color: #1b5e20;
+}
