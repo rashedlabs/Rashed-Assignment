@@ -150,3 +150,191 @@ nav ul li{
  border: 1px solid yellow;
 
 }
+  /* hero style */
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+
+}
+.hero-content {
+
+}
+.hero-bangladesh {
+    font-size: 24px;
+    font-weight: 500px;
+    color: hsl(0, 0%, 50%);
+    margin-left: 60px ;
+    margin-top: 117px;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: bold;
+    margin-left: 60px ;
+
+
+}
+
+.hero-image {
+    width: 474px;
+    height: 400px;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 75px;
+    
+}
+
+.hero-btn{
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    size: 270px 56px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    margin-left: 60px ;
+  
+
+}
+
+.hero-btn:hover {
+    background-color: #8786ca;
+    color: white;
+    border: 1px solid yellow; 
+}
+
+.main {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+   /* Pillars Box Styles */
+
+   #pillars-bangladesh {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+   .box-container {
+    display: flex;
+    gap: 24px;
+    
+    
+}
+
+.box {
+
+    padding: 24px;
+    box-shadow: 0 0 0 1px rgba(14, 14, 14, 0.15);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    width: 302px;
+    height: 244px;
+    
+    
+}
+
+/* the vision */
+
+#the-vision-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+#vision-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* vision style */
+
+.vision-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 1280px; 
+    margin: 0 auto; 
+    height: 325px;
+    box-sizing: border-box;
+}
+
+#vision1 {
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    align-content: center;
+}
+
+#vsn-btn1 {
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+} 
+
+#vsn-btn1:hover {
+    background-color: #8786ca;
+    color: white;
+    border: 1px solid yellow; 
+}
+
+
+#vision2 {
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 16px;
+    padding: 32px;
+    
+
+}
+
+#vsn-btn2 {
+    background-color:#006A50 ;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#vsn-btn2:hover {
+    background-color: #8786ca;
+    color: white;
+    border: 1px solid yellow; 
+}
+
+#vision3 {
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+    #vsn-btn3 {
+        background-color:#FFC239 ;
+        font-size: 16px;
+        font-weight: 500;
+        color: #FFFFFF;
+        padding: 11px 20px;
+        border-radius: 8px;
+        transition: background-color 0.3s, color 0.3s;
+}
+
+#vsn-btn3:hover {
+    background-color: #8786ca;
+    color: white;
+    border: 1px solid yellow; 
+}
+
+.vision-description {
+    margin: 24px 0;
+}
